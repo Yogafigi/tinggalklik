@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>tinggalklik-home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/png" sizes="20x20" href="image/logo.jpeg" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="/"
+          ><img
+            src="image/logo.jpeg"
+            alt="logo tinggalklik"
+            style="width: 45px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Businees.html">Business</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="venue.html">Venue</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Activity</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">E-Ticket</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn btn-outline-danger mx-3" type="button">
+              Register
+            </button>
+            <button class="btn btn-outline-success" type="button">Login</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--nav end-->
+
+    <div class="text-bg-dark mt-1">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/nuy.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="image/isback.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="image/mumu.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="card bg-dark p-4">
+        <h2 class="card-title text-center fw-bold">Venue Olahraga Terbaik</h2>
+        <div
+          class="row mx-5 mt-2 d-flex justify-content-center text-align-center"
+        >
+          <div class="col-sm-5 mt-2">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Open this select menu</option>
+              <option value="1">Mini Soccer</option>
+              <option value="2">Futsal</option>
+              <option value="3">Basket</option>
+              <option value="4">Badminton</option>
+              <option value="5">Tennis</option>
+              <option value="6">Studio Music</option>
+            </select>
+          </div>
+          <div class="col-sm-5 mt-2">
+            <input
+              type="date"
+              class="form-control"
+              placeholder="First name"
+              aria-label="First name"
+            />
+          </div>
+          <button class="col-sm-2 mt-2 bg-danger text-white rounded-2">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--end-->
+
+    <div class="card-group mx-3 mt-3 p-3 w-75">
+      <div class="card mx-1 rounded-4" style="box-shadow: 2px 2px 2px grey">
+        <img src="image/iconvenue.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="" class="text-decoration-none">Venue</a>
+          </h5>
+        </div>
+      </div>
+      <div
+        class="card mx-2 rounded-4 border"
+        style="box-shadow: 2px 2px 2px grey"
+      >
+        <img src="image/iconactivty.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="" class="text-decoration-none">Activity</a>
+          </h5>
+        </div>
+      </div>
+      <div
+        class="card mx-2 rounded-4 border"
+        style="box-shadow: 2px 2px 2px grey"
+      >
+        <img src="image/iconticket.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="" class="text-decoration-none">E-Ticket</a>
+          </h5>
+        </div>
+      </div>
+      <div
+        class="card mx-2 rounded-4 border"
+        style="box-shadow: 2px 2px 2px grey"
+      >
+        <img src="image/iconcomunity.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="" class="text-decoration-none">Community</a>
+          </h5>
+        </div>
+      </div>
+      <div
+        class="card mx-2 rounded-4 border"
+        style="box-shadow: 2px 2px 2px grey"
+      >
+        <img src="image/iconpromo.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="" class="text-decoration-none">Promo</a>
+          </h5>
+        </div>
+      </div>
+    </div>
+    <!--end-->
+
+    <h3 class="mx-3 mt-3 mb-3">
+      Rekomendasi <span class="text-danger">Venue</span>
+    </h3>
+    <div class="card-group mx-5">
+      <div class="card mx-2" style="box-shadow: 2px 2px 2px grey">
+        <img src="image/venue.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Mini Soccer</h5>
+          <p class="card-text">
+            <i class="fa-solid fa-location-dot mx-1"></i>Jakarta
+          </p>
+          <p class="card-text">
+            Harga Mulai <span class="text-danger">Rp. 800.000</span>
+          </p>
+
+          <button
+            class="bg-primary text-white rounded-2 fs-6"
+            style="border: none"
+          >
+            Details
+          </button>
+        </div>
+      </div>
+      <div class="card mx-2" style="box-shadow: 2px 2px 2px grey">
+        <img src="image/venuelap.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Mini Soccer Anisa</h5>
+          <p class="card-text">
+            <i class="fa-solid fa-location-dot mx-1"></i>Bogor
+          </p>
+          <p class="card-text">
+            Harga Mulai <span class="text-danger">Rp. 800.000</span>
+          </p>
+          <button
+            class="bg-primary text-white rounded-2 fs-6"
+            style="border: none"
+          >
+            Details
+          </button>
+        </div>
+      </div>
+      <div class="card mx-2" style="box-shadow: 2px 2px 2px grey">
+        <img src="image/venuelaplatihjis.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Lapangan latih JIS</h5>
+          <p class="card-text">
+            <i class="fa-solid fa-location-dot mx-1"></i>Jakarta International
+            Studion
+          </p>
+          <p class="card-text">
+            Harga Mulai <span class="text-danger">Rp. 2.500.000</span>
+          </p>
+          <button
+            class="bg-primary text-white rounded-2 fs-6"
+            style="border: none"
+          >
+            Details
+          </button>
+        </div>
+      </div>
+      <div class="card mx-2" style="box-shadow: 2px 2px 2px grey">
+        <img src="image/venuejakschool.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Lapangan Mini Soccer F2</h5>
+          <p class="card-text">
+            <i class="fa-solid fa-location-dot mx-1"></i>Bogor-sentul
+          </p>
+          <p class="card-text"></p>
+          <p class="card-text">
+            Harga Mulai <span class="text-danger">Rp. 900.000</span>
+          </p>
+          <button
+            class="bg-primary text-white rounded-2 fs-6"
+            style="border: none"
+          >
+            Details
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="card-group mx-5 mt-3 pb-3">
+      <div class="card mx-2" style="box-shadow: 2px 2px 2px grey">
+        <img src="image/vanuelapbjk.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Lapangan BJK</h5>
+          <p class="card-text">
+            <i class="fa-solid fa-location-dot mx-1"></i>Bogor
+          </p>
+          <p class="card-text">
+            Harga Mulai <span class="text-danger">Rp. 150.000</span>
+          </p>
+
+          <button
+            class="bg-primary text-white rounded-2 fs-6"
+            style="border: none"
+          >
+            Details
+          </button>
+        </div>
+      </div>
+      <div class="card mx-2" style="box-shadow: 2px 2px 2px grey">
+        <img src="image/vanuelaplola.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Lapangan Lola Futsal</h5>
+          <p class="card-text">
+            <i class="fa-solid fa-location-dot mx-1"></i>Bogor
+          </p>
+          <p class="card-text">
+            Harga Mulai <span class="text-danger">Rp. 150.000</span>
+          </p>
+          <button
+            class="bg-primary text-white rounded-2 fs-6"
+            style="border: none"
+          >
+            Details
+          </button>
+        </div>
+      </div>
+      <div class="card mx-2" style="box-shadow: 2px 2px 2px grey">
+        <img
+          src="image/vanuelapnatanminsoc.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Lapangan nathan Mini Soccer</h5>
+          <p class="card-text">
+            <i class="fa-solid fa-location-dot mx-1"></i>Bogor
+          </p>
+          <p class="card-text">
+            Harga Mulai <span class="text-danger">Rp. 750.000</span>
+          </p>
+          <button
+            class="bg-primary text-white rounded-2 fs-6"
+            style="border: none"
+          >
+            Details
+          </button>
+        </div>
+      </div>
+      <div class="card mx-2" style="box-shadow: 2px 2px 2px grey">
+        <img
+          src="image/vanuelapbromeliasc.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Lapangan Bromelia Mini Soccer</h5>
+          <p class="card-text">
+            <i class="fa-solid fa-location-dot mx-1"></i>Bogor
+          </p>
+          <p class="card-text"></p>
+          <p class="card-text">
+            Harga Mulai <span class="text-danger">Rp. 800.000</span>
+          </p>
+          <button
+            class="bg-primary text-white rounded-2 fs-6"
+            style="border: none"
+          >
+            Details
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide mx-5 mt-3"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner rounded-4">
+        <div class="carousel-item active">
+          <img
+            src="image/la-galaxy-banner.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="image/maiin-gandaria-banner.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="image/the-field-at-bintaro-banner.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="card-group mx-3 mt-3 p-3 w-75">
+      <div class="card mx-1 rounded-4" style="box-shadow: 2px 2px 2px grey">
+        <img src="image/football.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="" class="text-decoration-none">Sepak Bola</a>
+          </h5>
+        </div>
+      </div>
+      <div
+        class="card mx-2 rounded-4 border"
+        style="box-shadow: 2px 2px 2px grey"
+      >
+        <img src="image/minisoccer.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="" class="text-decoration-none">Mini Soccer</a>
+          </h5>
+        </div>
+      </div>
+      <div
+        class="card mx-2 rounded-4 border"
+        style="box-shadow: 2px 2px 2px grey"
+      >
+        <img src="image/basketball.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="" class="text-decoration-none">Basket</a>
+          </h5>
+        </div>
+      </div>
+      <div
+        class="card mx-2 rounded-4 border"
+        style="box-shadow: 2px 2px 2px grey"
+      >
+        <img src="image/badminton.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="" class="text-decoration-none">Bulu Tangkis</a>
+          </h5>
+        </div>
+      </div>
+      <div
+        class="card mx-2 rounded-4 border"
+        style="box-shadow: 2px 2px 2px grey"
+      >
+        <img src="image/tennis.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="" class="text-decoration-none">Tenis</a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="container card text-bg-dark mt-3">
+      <img
+        src="image/kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg"
+        class="card-img"
+        alt="..."
+        style="height: 100vh"
+      />
+      <div class="card-img-overlay mx-3 mt-5">
+        <p class="card-text">Khusus Pemilik Bisnis</p>
+        <h1 class="card-title">Satu Solusi Kelola</h1>
+        <h1 class="card-title">Fasilitas Olahraga Anda</h1>
+        <h5 class="card-text">
+          <span class="fw-bold">Gelora SmartVenue</span> Solusi Pinter Untuk
+          Mengelola
+        </h5>
+        <h5 class="card-text">& Mengembangkan bisnis olahraga-mu</h5>
+        <button
+          class="bg-primary text-white fw-semibold rounded-2 mt-3 px-3"
+          style="border: none; height: 40px"
+        >
+          pelajari Lebih Lanjut
+        </button>
+      </div>
+    </div>
+
+    <div class="container-fluid text-center mt-5">
+      <div class="row">
+        <div class="col">
+          <h6>COMPANY</h6>
+          <a
+            href="index.html"
+            style="text-decoration: none"
+            class="text-body-tertiary"
+            ><p>Home</p></a
+          >
+          <a href="#" style="text-decoration: none" class="text-body-tertiary"
+            ><p>Career</p></a
+          >
+        </div>
+        <div class="col">
+          <h6>PRODUCT</h6>
+          <a href="" class="text-body-tertiary" style="text-decoration: none"
+            ><p>Venue</p></a
+          >
+          <a href="" class="text-body-tertiary" style="text-decoration: none"
+            ><p>Activity</p></a
+          >
+          <a href="" class="text-body-tertiary" style="text-decoration: none"
+            ><p>Community</p></a
+          >
+        </div>
+        <div class="col">
+          <h6>SUPPORT</h6>
+          <a href="" class="text-body-tertiary" style="text-decoration: none"
+            ><p>API Reference</p></a
+          >
+          <a href="" class="text-body-tertiary" style="text-decoration: none"
+            ><p>Help Center</p></a
+          >
+          <a href="" class="text-body-tertiary" style="text-decoration: none"
+            ><p>Live Chat</p></a
+          >
+          <a href="" class="text-body-tertiary" style="text-decoration: none"
+            ><p>Blog</p></a
+          >
+        </div>
+        <div class="col">
+          <h6>PAYMENT</h6>
+          <div class="row">
+            <div class="col">
+              <p><img src="image/ovo.png" alt="" style="width: 40px" /></p>
+              <p><img src="image/dana.png" alt="" style="width: 40px" /></p>
+              <p><img src="image/bni.png" alt="" style="width: 40px" /></p>
+              <p><img src="image/permata.png" alt="" style="width: 40px" /></p>
+            </div>
+            <div class="col">
+              <p><img src="image/visa.png" alt="" style="width: 40px" /></p>
+              <p><img src="image/qris.png" alt="" style="width: 40px" /></p>
+              <p>
+                <img src="image/shopeepay.png" alt="" style="width: 40px" />
+              </p>
+              <p><img src="image/master.png" alt="" style="width: 40px" /></p>
+            </div>
+            <div class="col">
+              <p><img src="image/gopay.png" alt="" style="width: 40px" /></p>
+              <p><img src="image/bca.png" alt="" style="width: 40px" /></p>
+              <p>
+                <img src="image/atmbersama.png" alt="" style="width: 40px" />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-3">
+      <p>
+        PT tinggalklik &copy; 2023
+        <span class="text-danger">Yoga figianto</span>
+      </p>
+      <i class="fa-2x fa-brands fa-instagram"></i>
+      <i class="fa-2x fa-brands fa-facebook mx-2"></i>
+      <i class="fa-2x fa-brands fa-linkedin"></i>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
